@@ -11,7 +11,20 @@ Require-Bundle: org.example.xbase.expressions,
  org.objectweb.asm;bundle-version="[5.0.1,6.0.0)";resolution:=optional,
  org.eclipse.jdt.core,
  org.eclipse.xtext.testing,
- org.eclipse.xtext.xbase.testing
+ org.eclipse.xtext.xbase.testing,
+ org.eclipse.xtext,
+ org.eclipse.xtext.ui;resolution:=optional;x-installation:=greedy,
+ org.eclipse.core.runtime;bundle-version="3.6.0";resolution:=optional;x-installation:=greedy,
+ org.eclipse.ui.ide;bundle-version="3.6.0";resolution:=optional;x-installation:=greedy,
+ org.eclipse.jdt.core;bundle-version="3.6.0";resolution:=optional;x-installation:=greedy,
+ org.eclipse.jdt.ui;bundle-version="3.6.0";resolution:=optional,
+ org.eclipse.jdt.launching;bundle-version="3.5.200";resolution:=optional;x-installation:=greedy,
+ org.apache.log4j;bundle-version="1.2.15";resolution:=optional,
+ org.eclipse.xtext.xbase.lib;resolution:=optional,
+ org.eclipse.xtend.lib;resolution:=optional,
+ org.eclipse.xtext.builder.standalone,
+ org.eclipse.emf.codegen.ecore;bundle-version="2.10.2";resolution:=optional,
+ org.eclipse.pde.core;resolution:=optional
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: org.example.xbase.expressions.tests;x-internal=true
 Import-Package: org.hamcrest.core,
